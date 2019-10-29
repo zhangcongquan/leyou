@@ -1,0 +1,17 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 192.168.206.66
+    username: heima62
+    password: heima62
+    virtual-host: /heihei
+
+ly:
+  sms:
+    accessKeyId: LTAIOFZL7Yzg2IAM # 你自己的accessKeyId
+    accessKeySecret: 08FKGI8yOq1go5YvPwWnRi1ftMnTkg # 你自己的AccessKeySecret
+    signName: 乐优商城 # 签名名称
+    verifyCodeTemplate: SMS_143719983 # 模板名称
